@@ -1,0 +1,109 @@
+Gear
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Will Allwoods HTML</title>
+<link href="Website CSS.css" rel="stylesheet" type="text/css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body{
+  background:white;
+}
+
+.header {
+    background-color:indigo;
+    padding: 20px;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:gold
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:indigo;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: gold;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color:black;
+    color:gold;
+}
+
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+	background-color:black;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.social {
+	float:right
+}
+
+@media (max-width : 500px ){
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+<div class="social">
+<img src="Images/facebook_circle-512.png" alt="Facebook" width="3%">
+<img src="Images/9-2-twitter-high-quality-png.png" alt="Twitter" width="3%">
+<img src="Images/instagram-colourful-icon.png" alt="Instagram" width="3%">
+</div>
+
+<div class="header">
+  <h1>Destiny 2 Leviathin raid guide</h1>
+  </div>
+  
+<body>
+  <div class="topnav">
+    <a href="#">Home</a> 
+    <a href="#">Loadouts</a> 
+    <a href="#">Underbelly</a> 
+    <a href="#">Royal baths</a>
+    <a href="#">Gardens</a>
+    <a href="#">Gauntlet</a>
+    <a href="#">Emporor Calus</a>
+    <a href="#">Rewards</a>
+    </div>
+
+    <div>
+      <p>
+    So you want to tackle the leviathin raid but you aren't quite sure on what to do. fear not because here we'll cover every aspect of the leviathin raid and teach you everything you need to know before you board the ship for the first time. we will cover what weapons you need to bring as well as how to organise your team for each encounter. we will also give our thoughts on if the raid is worth doing or not in the rewards section.
+      </p>
+    </div>
+
+    <img src="bridge.jpg" width="1900" height="800">
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Will Allwoods HTML</title>
+    <link href="Website CSS.css" rel="stylesheet" type="text/css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: White;
+        }
+
+        .header {
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: ghostwhite
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: indianred;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: ghostwhite;
+                ;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .topnav a:hover {
+                    background-color: black;
+                    color: ghostwhite;
+                }
+
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 15px;
+            background-color: black;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social {
+            float: right
+        }
+
+        @media (max-width : 500px ) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .font {
+            font-size: 150%;
+            ;
+            border: 7px solid darkred;
+        }
+    </style>
+</head>
+<div class="header">
+    <h1>The Godfather FAQ</h1>
+</div>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Overview of the game</a>
+        <a href="index.html 2.html">How to install</a>
+        <a href="index.html 3.html">Operation of the game</a>
+        <a href="index.html 4.html">Controls</a>
+        <a href="index.html 5.html">FAQ</a>
+    </div>
+
+    <div>
+        <p class="font">
+            Here are some Frequently asked questions about The GodFarther game
+        </p>
+
+        <p class="font">
+            How long did it take to code the game? Answer= It took 3 months of on and off work, mostly an 1 hour to 7 hours a day.
+        </p>
+
+        <p class="font">
+            Will This game see and official release? Answer= No the game uses copyrighted material because I had limited access to any music programs.
+        </p>
+
+        <p class="font">
+            Will there be future updates for the game? Answer= possibly, if i were to go back to this game I would create a menu system with more level variety, better backgorunds and my own music.
+        </p>
+
+        <p class="font">
+            How long does it take to beat the game? Answer = It should take 5 minuites at the least and 15 minuites at the most.
+        </p>
+
+        <p class="font">
+            What Language was the game coded in? Answer = The game was coded and created using C# using XNA frameworks from monogame.
+        </p>
+    </div>
+
+    <img src="Level5.jpg" width="1920" height="1440">
+    <img src="Victory.jpg" width="1920" height="1440">
+
+</body>
+</html>

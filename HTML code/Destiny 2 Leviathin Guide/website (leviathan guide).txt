@@ -1,0 +1,67 @@
+website (leviathan guide)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: red;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+
+
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+  color: gold;
+}
+</style>
+</head>
+<body>
+
+<div style="background-color:grey">
+<h1>Destiny 2 Leviathan raid guide</h1>
+
+<div style="background-color:brown">
+<h1>Gear and loadouts</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+
+<div style="background-color:blue">
+<h1>The Plesure Gardens</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+<div style="background-color:red">
+<h1>The Gauntlet</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+<div style="background-color:black">
+<h1>The Royal baths</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+<div style="background-color:purple">
+<h1>Emporer Calus</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+<div style="background-color:green">
+<h1>Rewards and weapons</h1>
+
+<p>In this guide i'm going to teach you all the mechanics and inner workings of the raid as well giving you recommendations for what
+gear will give you the best chance at completing most of the encounters on your first try.</p>
+
+</body>
+</head>

@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Will Allwoods HTML</title>
+    <link href="Website CSS.css" rel="stylesheet" type="text/css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: White;
+        }
+
+        .header {
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: ghostwhite
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: indianred;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: ghostwhite;
+                ;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .topnav a:hover {
+                    background-color: black;
+                    color: ghostwhite;
+                }
+
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 15px;
+            background-color: black;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social {
+            float: right
+        }
+
+        @media (max-width : 500px ) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .font {
+            font-size: 150%;
+            ;
+            border: 7px solid darkred;
+        }
+    </style>
+</head>
+<div class="header">
+    <h1>The Godfather Guide </h1>
+</div>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Overview of the game</a>
+        <a href="index.html 2.html">How to install</a>
+        <a href="index.html 3.html">Operation of the game</a>
+        <a href="index.html 4.html">Controls</a>
+        <a href="index.html 5.html">FAQ</a>
+    </div>
+
+    <div>
+        <p class="font">
+            The Godfarther is the 42nd grims fairy tale it is based on a young man who explorers the house of his Godfather and encounters some weird scenarios, this might include a a flaming fish in the Kitchen or a Devil figure in the bedroom, the objective of this game is to explore the five floors of the house while collecting coins in order to progress. It is a top down collectothon where the player must collect 100 coins in order to get past the final level, along the way the player will have to evade smaller enemies and one larger enemy which represents the Godfarther himself  .
+        </p>
+    </div>
+
+    <img src="Level1.jpg" width="1920" height="1440">
+    <img src="Gameover.jpg" width="1920" height="1440">
+
+</body>
+</html>

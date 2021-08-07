@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Will Allwoods HTML</title>
+    <link href="Website CSS.css" rel="stylesheet" type="text/css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: White;
+        }
+
+        .header {
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: ghostwhite
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: indianred;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: ghostwhite;
+                ;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .topnav a:hover {
+                    background-color: black;
+                    color: ghostwhite;
+                }
+
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 15px;
+            background-color: black;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social {
+            float: right
+        }
+
+        @media (max-width : 500px ) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .font {
+            font-size: 150%;
+            ;
+            border: 7px solid darkred;
+        }
+    </style>
+</head>
+<div class="header">
+    <h1>The Godfather Controls </h1>
+</div>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Overview of the game</a>
+        <a href="index.html 2.html">How to install</a>
+        <a href="index.html 3.html">Operation of the game</a>
+        <a href="index.html 4.html">Controls</a>
+        <a href="index.html 5.html">FAQ</a>
+    </div>
+
+    <div>
+        <p class="font">
+            The Godfather game has a very simplistic control scheme, you play nas the boy exploring the house with a directional movement control scheme, this meanss the player can primarily only move left,right,up or down however if two keys are pressed in unision the player can move diagonally, this may involve the player pressing upthen right to move north east in the game. To interact with an enemy the player merely has to touch the object in question for it to function, this may include running into a coin to collect it or running into the next level button to get to the next level The player also has the option to press the space buttno when they get a game over, this will allow them to respawn at level 1 with max lives and zero coins or score.
+        </p>
+    </div>
+
+    <img src="Keys.jpg" width="640" height="230">
+    <img src="Level4.jpg" width="1920" height="1440">
+
+</body>
+</html>

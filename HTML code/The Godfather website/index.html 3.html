@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Will Allwoods HTML</title>
+    <link href="Website CSS.css" rel="stylesheet" type="text/css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: White;
+        }
+
+        .header {
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: ghostwhite
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: indianred;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: ghostwhite;
+                ;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .topnav a:hover {
+                    background-color: black;
+                    color: ghostwhite;
+                }
+
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 15px;
+            background-color: black;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .social {
+            float: right
+        }
+
+        @media (max-width : 500px ) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .font {
+            font-size: 150%;
+            ;
+            border: 7px solid darkred;
+        }
+    </style>
+</head>
+<div class="header">
+    <h1>Operation of the GodFather </h1>
+</div>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Overview of the game</a>
+        <a href="index.html 2.html">How to install</a>
+        <a href="index.html 3.html">Operation of the game</a>
+        <a href="index.html 4.html">Controls</a>
+        <a href="index.html 5.html">FAQ</a>
+    </div>
+
+    <div>
+        <p class="font">
+            In order to operate the game the player just needs to avoid enemies while collecting coins so they can reach the next level, it is i very simplistic concept with an even simpler control scheme which we will get into later, the player cannot walk through walls as they are solid objects, players also cannot walk through enemies as they will loose 1 life and be sent to the start of the level, if they loose 5 lives they get a gameover. walking into coins and enemies generates sound effects which fit the moment, for example collecting a coin will trigger a chaching sound effect. The game also uses background music which plays throughout each of the five levels. Player progress carries over from each level so the players score and coin count don't reset to 0 each time a new level starts. this makes the game much easier and accesible to older people or those who aren't that good at video games.'
+        </p>
+    </div>
+
+    <img src="Level3.jpg" width="1920" height="1440">
+
+</body>
+</html>
